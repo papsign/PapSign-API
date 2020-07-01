@@ -3,13 +3,13 @@ PapSign electronic signature API
 
 ## URLs
 
-[API](api.papsign.com)
+[API](https://api.papsign.com)
 
-[OpenAPI](api.papsign.com/openapi.json)
+[OpenAPI](https://api.papsign.com/openapi.json)
 
 ## Get OAuth keys
 
-1. Go to [papsign.com/account](papsign.com/account)
+1. Go to [papsign.com/account](https://papsign.com/account)
 2. Click `Add OAuth Client`
 3. Fill In the information
 4. Give a (Java) Regex for the authorized redirect addresses
