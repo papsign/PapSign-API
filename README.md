@@ -43,6 +43,7 @@ Only the data contained in the signature is protected. Only the verified element
 1. [Create a file](https://api.papsign.com/swagger-ui/index.html?url=/openapi.json#/File/post_v1_files_pdf)
 2. [Create a signature process](https://api.papsign.com/swagger-ui/index.html?url=/openapi.json#/SignatureProcess/post_v1_signature_process_pdf)  
 `keep`: Keep the file when the process is deleted, set to false to skip step 7  
+`signers`: Each entry creates a signature slot for a signer  
 `oneOf`: Array determining who is allowed to sign, if one of those mentioned in the array have signed the slot it is valid.
 3. (optional) [Send an invitation email to sign the document](https://api.papsign.com/swagger-ui/index.html?url=/openapi.json#/SignatureProcess/post_v1_signature_process_pdf__processID__invite)
 4. (optional if you are not a signer) [Sign the PDF](https://api.papsign.com/swagger-ui/index.html?url=/openapi.json#/SignatureProcess/put_v1_signature_sign_pdf)
