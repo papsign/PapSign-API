@@ -57,6 +57,6 @@ Deletion is necessary as the account has storage limits.
 
 [Verify a document](https://api.papsign.com/swagger-ui/index.html?url=/openapi.json#/Verify/post_v1_verification_verify_document)
 
-If the response contains `pdf`, it is a signed PDF.
+If the response contains `pdf`, it is a signed PDF.  
 If the response contains `standard`, each of those entries is a printable signature.  
 A signed PDF can contain printable signatures.
